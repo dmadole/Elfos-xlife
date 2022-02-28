@@ -55,11 +55,11 @@ start:     org     2000h
            ; Build information
 
            db      2+80h              ; month
-           db      25                 ; day
+           db      27                 ; day
            dw      2022               ; year
-           dw      1                  ; build
+           dw      2                  ; build
 
-           db      'See github.com/dmadole for more info',0
+           db      'See github.com/dmadole/Elfos-xlife for more info',0
 
 
            ; Initialize 9918 registers to multicolor mode. We blank the display
